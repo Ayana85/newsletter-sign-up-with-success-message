@@ -22,6 +22,7 @@ function validatateEmail(e) {
         input.style.border = 'none';
         input.placeholder.style.color = 'red';
         return false;
+        
     } else {
         input.classList.remove('error');
         error.textContent = '';
